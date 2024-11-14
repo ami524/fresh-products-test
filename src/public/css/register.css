@@ -1,0 +1,102 @@
+.register-form__content {
+    width: 760px;
+    margin: auto;
+}
+
+.register-form__heading {
+    color: #333;
+    size: 32px;
+    width: 128px;
+    height: 48px;
+    line-height: 48px;
+}
+
+
+
+.form__group {
+    margin: 30px 0;
+}
+
+.form__group-title {
+    margin: 0 0 10px 0;
+}
+
+.form__label--item {
+    color: #4B4B4B;
+    margin: 0 5px;
+}
+.form__label--required {
+    background-color: #fd0707;
+    color: #fff;
+    padding: 0 5px;
+}
+
+.form__input--name input {
+    border: 1px;
+    border-color: #e0dfde;
+    width: 760px;
+    height: 43px;
+    padding: 11px 10px;
+    color: #4b4b4b;
+}
+
+.form__input--name input::placeholder {
+    color: #e0dfde;
+}
+
+.form__input--name input[name="explanation"] {
+    height: 160px;
+    text-align: top;
+}
+
+
+
+
+.form__input--radio {
+    display: flex;
+    width: 314px;
+    height: 43px;
+    gap: 10px;
+}
+
+.form__input--radio input {
+    width: 41px;
+    height: 34px;
+    padding: 5px 0;
+    gap: 5px;
+}
+.form__input--radio label {
+    margin: 0 40px 0 0;
+}
+
+
+
+
+.form__button {
+    text-align: center;
+    height: 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form__button-back {
+    background-color: #e0dfde;
+    color: #000;
+    text-decoration: none;
+
+}
+.form__button-submit {
+    background-color: #f5c800;
+}
+
+.form__button-back,
+.form__button-submit {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 13px 10px;
+    gap: 10px;
+    border: none;
+}
